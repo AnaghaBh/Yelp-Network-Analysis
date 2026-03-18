@@ -113,30 +113,33 @@ This indicates a long-tail distribution of engagement.
 ---
 
 ## Project Structure
+
+```
+.
 ├── data_cleaning/
-│ ├── cleaning_business_dataset.ipynb
-│ ├── cleaning_user_dataset.ipynb
-│ ├── cleaning_reviews_dataset.ipynb
-│ └── cleaning_tips_dataset.ipynb
+│   ├── cleaning_business_dataset.ipynb
+│   ├── cleaning_user_dataset.ipynb
+│   ├── cleaning_reviews_dataset.ipynb
+│   └── cleaning_tips_dataset.ipynb
 │
 ├── graph_construction/
-│ ├── Create_UserNode
-│ ├── Create_BusinessNode
-│ ├── Create_FRIENDS_WITH_Relationship
-│ ├── Create_REVIEWED_Relationship
-│ ├── Create_TIPPED_Relationship
-│ └── Create_RECOMMENDED_Relationship
+│   ├── Create_UserNode
+│   ├── Create_BusinessNode
+│   ├── Create_FRIENDS_WITH_Relationship
+│   ├── Create_REVIEWED_Relationship
+│   ├── Create_TIPPED_Relationship
+│   └── Create_RECOMMENDED_Relationship
 │
 ├── analysis/
-│ ├── Sentiment Analysis.ipynb
-│ ├── DescriptiveStatsForReviews.json
-│ ├── StarRatingDistribution.json
-│ ├── AverageTextLengthByRating.json
-│ └── TopBusiness(reviewcount).json
+│   ├── Sentiment Analysis.ipynb
+│   ├── DescriptiveStatsForReviews.json
+│   ├── StarRatingDistribution.json
+│   ├── AverageTextLengthByRating.json
+│   └── TopBusiness(reviewcount).json
 │
 └── visualisations/
-└── graph.png
-
+    └── graph.png
+```
 ---
 
 ## How to Run
